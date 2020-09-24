@@ -272,7 +272,8 @@ img{
     align-items: center;
     position: relative;
     font-weight: var(--font-semi);
-    padding: var(--mb-4);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
     border-radius: .5rem;
     box-shadow: 0 4px 25px rgb(14, 36, 49, .15);
 }
@@ -409,7 +410,7 @@ img{
     }
 
     .home{
-        height: 100%;
+        height: 100vh;
     }
     .home__data{
         align-self: flex-end;
@@ -429,4 +430,13 @@ img{
         bottom: 15%;
     }
 
+    .about__container, .skills__container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: initial;
+    }
+    .about__img img{ 
+        width: 300px;
+    }
+    
 }
