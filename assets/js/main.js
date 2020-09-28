@@ -59,4 +59,6 @@ sr.reveal('.work__img', {interval: 200})
 
 
 /*===== SCROLL CONTACT =====*/
-sr.reveal('.contact__input', {interval: 200})
+sr.reveal('.contact__subtitle', {})
+sr.reveal('.contact__text', {delay: 200})
+sr.reveal('.contact__button', {delay: 400})
