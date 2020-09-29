@@ -321,6 +321,15 @@ img{
 .skills__vuejs{
     width: 10%;
 }
+.skills__python{
+    width: 50%;
+}
+.skills__csharp{
+    width: 35%;
+}
+.skills__sql{
+    width: 40%;
+}
 .skills_img{
     border-radius: .5rem;
 }
