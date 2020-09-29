@@ -383,13 +383,17 @@ img{
 
 /*===== PROJECTS  =====*/
 .project__container{
+    margin-top: var(--mb-6);
     row-gap: 2rem;
     justify-items: center;
 }
 
 .project__img{
+    box-shadow: 0 4px 25px rgb(14, 36, 49, .15);
+    width: 300px;
+}
+.project__img img{
     border-radius: .5rem;
-    width: 295px;
 }
 
 
