@@ -267,6 +267,9 @@ img{
     width: 200px;
     border-radius: .5rem;
 }
+.about__text{
+    margin-bottom: var(--mb-2);
+}
 
 /*===== SKILLS  =====*/
 .skills__container{
@@ -277,7 +280,7 @@ img{
     margin-bottom: var(--mb-2);
 }
 .skills__text{
-    margin-bottom: var(--mb-4);
+    margin-bottom: var(--mb-2);
 }
 .skills__data{
     display: flex;
@@ -395,18 +398,23 @@ img{
 /*===== PROJECTS  =====*/
 .project__container{
     margin-top: var(--mb-6);
-    row-gap: 2rem;
     justify-items: center;
 }
-
 .project__img{
     box-shadow: 0 4px 25px rgb(14, 36, 49, .15);
     width: 300px;
+    margin-bottom: var(--mb-2);
 }
 .project__img img{
     border-radius: .5rem;
 }
-
+.project__link-icon{
+    font-size: 1.5rem;
+    color: var(--second-color);
+}
+.project__link-icon:hover{
+    color: var(--first-color);
+}
 
 /*===== MEDIA QUERIES  =====*/
 @media screen and (min-width: 768px){
