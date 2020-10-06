@@ -75,7 +75,16 @@ img{
     height: auto;
     display: block;
 }
-
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: .5rem;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
+}
 /*===== CLASS CSS  =====*/
 .section-title{
     position: relative;
@@ -397,7 +406,7 @@ img{
 
 /*===== PROJECTS  =====*/
 .project__container{
-    margin-top: var(--mb-6);
+    margin-top: var(--mb-2);
     justify-items: center;
 }
 .project__img{
@@ -415,6 +424,9 @@ img{
 .project__link-icon:hover{
     color: var(--first-color);
 }
+.project__text{
+    margin-bottom: var(--mb-2);
+}
 .project__tech{
     margin-top: var(--mb-2);
 }
@@ -428,7 +440,18 @@ img{
     color: var(--first-color);
     margin-right: .5rem;
 }
-
+.project__contribution-item:before{
+    content: "▹";
+    color: var(--first-color);
+    margin-right: .5rem;
+    margin-left: var(--mb-4);
+}
+.project__video{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-bottom: var(--mb-2);
+}
 /*===== MEDIA QUERIES  =====*/
 @media screen and (min-width: 768px){
     body{
