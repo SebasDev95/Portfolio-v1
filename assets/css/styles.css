@@ -415,6 +415,19 @@ img{
 .project__link-icon:hover{
     color: var(--first-color);
 }
+.project__tech{
+    margin-top: var(--mb-2);
+}
+.project__tech-item{
+    float: left;
+    margin-right: var(--mb-2);
+    margin-left: var(--mb-2);
+}
+.project__tech-item:before{
+    content: "▹";
+    color: var(--first-color);
+    margin-right: .5rem;
+}
 
 /*===== MEDIA QUERIES  =====*/
 @media screen and (min-width: 768px){
