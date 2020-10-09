@@ -453,6 +453,12 @@ iframe{
     margin-bottom: var(--mb-2);
 }
 /*===== MEDIA QUERIES  =====*/
+@media screen and (max-width: 400px){
+    .home__img{
+        width: 200px;
+    }
+}
+
 @media screen and (min-width: 768px){
     body{
         margin: 0;
